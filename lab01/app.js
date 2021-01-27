@@ -21,21 +21,21 @@ $(document).ready(function () {
 
     //rows modified
     $("#fadein3").click(function () {
-        $("#appleMac").fadeIn();
+        $(".macbook-data").fadeIn();
     });
     $("#fadeout4").click(function () {
-        $("#appleMac").fadeOut();
+        $(".macbook-data").fadeOut();
     });
     $("#fadein7").click(function () {
-        $("#appleiPad").fadeIn();
+        $(".ipad-data").fadeIn();
     });
     $("#fadeout8").click(function () {
-        $("#appleiPad").fadeOut();
+        $(".ipad-data").fadeOut();
     });
     $("#fadein11").click(function () {
-        $("#appleiPhone").fadeIn();
+        $(".iphone-data").fadeIn();
     });
     $("#fadeout12").click(function () {
-        $("#appleiPhone").fadeOut();
+        $(".iphone-data").fadeOut();
     });
 });
