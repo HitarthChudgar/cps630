@@ -1,12 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Electronics-Center</title>
 </head>
+
 <body>
+    <h1>Electronics-Center</h1>
+    <p id="textbox">
+        <table class="selectorTable">
+            <tr>
+                <td>
+                    <select name="" id="action">
+                        <option value="">Action</option>
+                        <option value="">Archive</option>
+                        <option value="">Edit</option>
+                        <option value="">Delete</option>
+                        <option value="">Collection</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="type">
+                        <option value="">Type</option>
+                        <option value="">LapTop</option>
+                        <option value="">NoteBook</option>
+                        <option value="">Tablet</option>
+                        <option value="">Cellphone</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <table class="mainTable">
+            <tr>
+                <th></th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Year</th>
+                <th>Type</th>
+                <th>Actions</th>
+            </tr>
+            <tr id="appleMac">
+                <td><input type="radio" name="1" value="0"></td>
+                <td class="options">
+                    <input type="radio" name="book" id="fadein1" value="Fade In">Fade In Image
+                    <input type="radio" name="book" id="fadeout2" value="Fade Out">Fade Out Image
+                    <input type="radio" name="book" id="fadein3" value="Fade In">Fade In Row
+                    <input type="radio" name="book" id="fadeout4" value="Fade Out">Fade Out Row
+                    <img class="macbook" src="./resources/img/Apple-Macbook-Pro-Transparent-Image.png">
+                </td>
+                <td>Macbook Air</td>
+                <td>Apple Inc.</td>
+                <td>2019</td>
+                <td>Laptop</td>
+                <td class="button">
+                    <ul>
+                        <li>
+                            <button type="button">Archive</button>
+                        </li>
+                        <li>
+                            <button type="button">Edit</button>
+                        </li>
+                        <li>
+                            <button type="button">Delete</button>
+                        </li>
+                        <li>
+                            <button type="button">Collection</button>
+                        </li>
+
+                    </ul>
+                </td>
+            </tr>
+            <tr id="appleiPad">
+                <td><input type="radio" name="1" value="0"></td>
+                <td class="options">
+                    <input type="radio" name="book" id="fadein5" value="Fade In">Fade In Image
+                    <input type="radio" name="book" id="fadeout6" value="Fade Out">Fade Out Image
+                    <input type="radio" name="book" id="fadein7" value="Fade In">Fade In Row
+                    <input type="radio" name="book" id="fadeout8" value="Fade Out">Fade Out Row
+                    <img class="iPad" src="./resources/img/iPad.png">
+                </td>
+                <td>Macbook Air</td>
+                <td>Apple Inc.</td>
+                <td>2019</td>
+                <td>Laptop</td>
+                <td class="button">
+                    <ul>
+                        <li>
+                            <button type="button">Archive</button>
+                        </li>
+                        <li>
+                            <button type="button">Edit</button>
+                        </li>
+                        <li>
+                            <button type="button">Delete</button>
+                        </li>
+                        <li>
+                            <button type="button">Collection</button>
+                        </li>
+
+                    </ul>
+                </td>
+            </tr>
+            <tr id="appleiPhone">
+                <td><input type="radio" name="1" value="0"></td>
+                <td class="options">
+                    <input type="radio" name="book" id="fadein9" value="Fade In">Fade In Image
+                    <input type="radio" name="book" id="fadeout10" value="Fade Out">Fade Out Image
+                    <input type="radio" name="book" id="fadein11" value="Fade In">Fade In Row
+                    <input type="radio" name="book" id="fadeout12" value="Fade Out">Fade Out Row
+                    <img class="iPhone" src="./resources/img/apple-iphone-x-pictures-5.png">
+                </td>
+                <td>Macbook Air</td>
+                <td>Apple Inc.</td>
+                <td>2019</td>
+                <td>Laptop</td>
+                <td class="button">
+                    <ul>
+                        <li>
+                            <button type="button">Archive</button>
+                        </li>
+                        <li>
+                            <button type="button">Edit</button>
+                        </li>
+                        <li>
+                            <button type="button">Delete</button>
+                        </li>
+                        <li>
+                            <button type="button">Collection</button>
+                        </li>
+
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </p>
     <script src="./app.js"></script>
 </body>
+
 </html>
