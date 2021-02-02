@@ -1,10 +1,10 @@
 $(document).ready(function () {
     //images modified
     $("#fadein1").click(function () {
-        $(".macbook").fadeIn();
+        $(".macbook").fadeIn(500,"linear");
     });
     $("#fadeout2").click(function () {
-        $(".macbook").fadeOut();
+        $(".macbook").fadeOut(1000, "linear").delay(1000);
     });
     $("#fadein5").click(function () {
         $(".iPad").fadeIn();
